@@ -1,0 +1,47 @@
+body {
+    background-color: #6c63ff;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 10px;
+    padding-left: 4%;
+    padding-right: 4%;
+    display: flex;
+    max-width: 1200px;
+}
+
+h1 {
+   color: #6c63ff;
+}
+
+p {
+    color: #56585d;
+}
+
+a {
+    color: #6c63ff;
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    min-width: 300px;
+    display: flex;
+    margin-left: 20px;
+}
+
+.obrazek {
+    display: flex;
+}
+
+a {
+    display: flex;
+    flex-direction: row;
+}
+
+
+

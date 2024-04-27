@@ -1,0 +1,39 @@
+
+
+@media (maz-width: 1025px) {
+    .card {
+        font-size: 22px;
+    }
+
+    .tekst {
+        max-width: 55%;
+    }
+
+    p {
+        text-align: justify;
+    }
+}
+
+@media (min-width: 825px) and (max-width: 1024px) {
+    .card {
+        font-size: 18px;
+    }
+    p {
+        text-align: justify;
+    }
+}
+
+@media (max-width:824px) {
+    .card {
+        font-size: 16px;
+        flex-direction: column;
+    }
+
+    .obrazek {
+        order: -1;
+    }    
+
+    .tekst {
+        text-align: center;
+    }
+}
